@@ -36,6 +36,7 @@ const projects = [
     title: "Contrastive Autoencoders vs Variational Autoencoders",
     linkText: "code",
     linkUrl: "https://github.com/allx2100/contrastive-encoders",
+    paperUrl: "../public/cvaes.pdf",
     description:
       "Built and evaluated CAEs and VAEs for feature compression on high-dimensional data. Focused on reconstruction quality, latent structure, and ML task efficiency.",
     image: caeImg,
