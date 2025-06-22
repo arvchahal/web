@@ -1,0 +1,89 @@
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 40px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.home-text {
+  flex: 1;
+  min-width: 300px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: larger;
+}
+.home-text h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #90bdc9;
+}
+
+.home-text p {
+  color: #e0e0e0;
+  margin-bottom: 16px;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-image-container {
+  flex-shrink: 0;
+    flex-basis: 350px; /* more space for image column */
+  text-align: center;
+}
+
+.profile-image {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.location-text {
+  margin-top: 10px;
+  color: #ccc;
+  font-family: monospace;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.contact-icons {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contact-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  padding-left: 10px;
+    padding-right: 30px;
+}
+
+.contact-icons img:hover {
+  transform: scale(1.1);
+}
+.coursework{
+  margin-top: 40px;
+  text-align: center;
+  color: #d0d0d0;
+}
+
+.coursework h2 {
+  color: #84cbd7;
+  margin-bottom: 10px;
+}
+
+.coursework p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}

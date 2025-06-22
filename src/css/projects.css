@@ -1,0 +1,45 @@
+.projects-container {
+  padding: 80px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+.project-image {
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-text h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.project-link {
+  color: #4fc3f7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-text p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
