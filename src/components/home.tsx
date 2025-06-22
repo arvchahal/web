@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import '../css/home.css';
 import profileImage from '../assets/sc.png';
-import emailIcon from '../assets/email.jpg';
+// import emailIcon from '../assets/email.jpg';
 import githubIcon from '../assets/gh.png';
 import linkedinIcon from '../assets/linked.png';
 const Home = () => {

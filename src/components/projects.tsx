@@ -1,4 +1,3 @@
-import React from 'react';
 import '../css/projects.css'; // Assume you're styling it separately
 import manasluImg from '../assets/manaslu.jpg';
 import llvmImg from '../assets/llvm.jpg';

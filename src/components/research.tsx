@@ -1,4 +1,3 @@
-import React from 'react';
 import '../css/research.css';
 
 const Research = () => {
